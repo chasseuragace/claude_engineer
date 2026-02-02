@@ -1,0 +1,23 @@
+# Hello World Test App
+
+A minimal test project to verify Linear and Slack integration.
+
+## Tech Stack
+- Simple text file (no dependencies)
+
+## Features (2 total)
+
+### 1. Create Hello World File
+- Create a file named `hello.txt`
+- Content: "Hello World! This is a test from Your Claude Engineer."
+- Save in the project root directory
+
+### 2. Send Slack Notification
+- Send a message to the configured Slack channel
+- Message: "✅ Test complete! Linear project created and hello.txt file generated successfully."
+
+## Success Criteria
+- hello.txt file exists with correct content
+- Slack message delivered to testing channel
+- Linear project created with 2 issues
+- All issues marked as complete

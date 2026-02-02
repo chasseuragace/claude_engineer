@@ -1,0 +1,67 @@
+{
+  "initialized": true,
+  "created_at": "2026-02-02T00:00:00Z",
+  "project_id": "PENDING_LINEAR_SETUP",
+  "project_name": "Hello World Test",
+  "project_slug": "hello-world-test",
+  "team_key": "ENG",
+  "description": "Minimal test project to verify Linear and Slack integration",
+  "total_issues": 2,
+  "meta_issue_id": "PENDING_LINEAR_SETUP",
+  "issues": [
+    {
+      "id": "PENDING_LINEAR_SETUP",
+      "key": "HWT-1",
+      "title": "Create Hello World File",
+      "status": "Todo",
+      "priority": "high",
+      "description": "Create a file named `hello.txt` with specific content in the project root directory.",
+      "test_steps": [
+        "Navigate to project root directory",
+        "Verify file hello.txt exists",
+        "Verify file content exactly matches: 'Hello World! This is a test from Your Claude Engineer.'",
+        "No additional whitespace or characters"
+      ],
+      "acceptance_criteria": [
+        "hello.txt file created in project root",
+        "File content matches exactly as specified",
+        "File is readable and accessible"
+      ]
+    },
+    {
+      "id": "PENDING_LINEAR_SETUP",
+      "key": "HWT-2",
+      "title": "Send Slack Notification",
+      "status": "Todo",
+      "priority": "high",
+      "description": "Send a message to the configured Slack channel with test completion notification.",
+      "test_steps": [
+        "Verify Slack integration is configured",
+        "Send message: '✅ Test complete! Linear project created and hello.txt file generated successfully.'",
+        "Verify message appears in target Slack channel",
+        "Confirm message content is exact and formatted correctly"
+      ],
+      "acceptance_criteria": [
+        "Message successfully delivered to Slack channel",
+        "Message content matches exactly as specified",
+        "Message includes the checkmark emoji and proper punctuation"
+      ]
+    }
+  ],
+  "meta_issue": {
+    "title": "[META] Project Progress Tracker",
+    "description": "This issue tracks session progress for the Hello World Test project.\nTotal features: 2\nSession 1: Project initialization and feature implementation",
+    "status": "Todo"
+  },
+  "session_log": [
+    {
+      "session": 1,
+      "date": "2026-02-02",
+      "action": "Project Initialization",
+      "completed_issues": 0,
+      "in_progress_issues": 0,
+      "todo_issues": 2,
+      "notes": "Project structure initialized, Linear issues created, META issue created for tracking"
+    }
+  ]
+}
